@@ -52,17 +52,20 @@ class UkrainianDiscourseDetector:
             'matched_patterns': []
         }
 
-        # Check each question category
-        for category, patterns in self.patterns.question_patterns.items():
-            for pattern in patterns:
-                if re.search(pattern, text_lower):
-                    result['is_question'] = True
-                    result['question_type'] = category
-                    result['confidence'] = 1.0 if text_lower.endswith('?') else 0.8
-                    result['matched_patterns'].append(pattern)
+        # Check each question category (prioritize specific types over general)
+        category_order = ['technical', 'clarification', 'general']
+        for category in category_order:
+            if category in self.patterns.question_patterns:
+                patterns = self.patterns.question_patterns[category]
+                for pattern in patterns:
+                    if re.search(pattern, text_lower):
+                        result['is_question'] = True
+                        result['question_type'] = category
+                        result['confidence'] = 1.0 if text_lower.endswith('?') else 0.8
+                        result['matched_patterns'].append(pattern)
+                        break
+                if result['is_question']:
                     break
-            if result['is_question']:
-                break
 
         return result
 
