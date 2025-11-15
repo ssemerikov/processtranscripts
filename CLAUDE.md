@@ -727,6 +727,9 @@ When working with this repository as an AI assistant:
 
 **This document is a living guide**. As the repository evolves, so should this document. When you add features, update this file. When you discover issues, document solutions here. When you have insights, capture them.
 
+IMPORTANT THING FROM THE USER WHO CONTROL THIS REPOSITORY: document all steps that can help to clearly reproduce software creating, testing and the use to solve the global problem of analysing the research results for the future paper sections - Methodology, Results, and Limitations (all in LaTeX and JSON)
+
+
 **Version**: 1.0
 **Last Updated**: 2025-11-15
 **Maintained By**: AI assistants working with this repository
