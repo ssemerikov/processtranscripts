@@ -1,0 +1,125 @@
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:96 - ================================================================================
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:97 - LIGHTWEIGHT ANALYSIS STARTED
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:98 - Timestamp: 20251115_134531
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:99 - Output directory: /home/user/processtranscripts/analysis_results/run_20251115_134531
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:100 - Number of transcripts: 19
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:101 - ================================================================================
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:173 - 
+================================================================================
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:174 - PHASE 1: TRANSCRIPT PROCESSING
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:175 - ================================================================================
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[1/19] Processing: Web2.П01.Вступ до гнучкої розробки.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 283 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 4281.6 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[2/19] Processing: Web2.Стендап 1.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 259 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 934.3 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[3/19] Processing: Web2.П02.Спринт 1, частина 1.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 361 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 5084.4 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[4/19] Processing: Web2.Стендап 2.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 199 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 736.1 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[5/19] Processing: Web2.П03.Спринт 1, частина 2.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 367 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 4949.6 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[6/19] Processing: Web2.Стендап 3.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 120 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 417.1 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[7/19] Processing: Web2.П04.Спринт 1, частина 3.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 309 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 4834.9 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[8/19] Processing: Web2.Стендап 4.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 252 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 773.5 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[9/19] Processing: Web2.П05.Спринт 2, частина 1.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 255 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 4244.2 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[10/19] Processing: Web2.Стендап 5.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 44 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 556.4 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[11/19] Processing: Web2.П06.Спринт 2, частина 2.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 189 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 4403.0 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[12/19] Processing: Web2.Стендап 6.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 78 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 252.5 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[13/19] Processing: Web2.П07.Спринт 2, частина 3.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 254 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 4959.3 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[14/19] Processing: Web2.Стендап 7.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 69 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 267.9 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[15/19] Processing: Web2.П08.Спринт 3, частина 1.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 197 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 4142.4 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[16/19] Processing: Web2.Стендап 8.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 182 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 608.8 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[17/19] Processing: Web2.П09.Спринт 3, частина 2.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 312 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 4484.9 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[18/19] Processing: Web2.Стендап 9.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 250 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 878.9 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:187 - 
+[19/19] Processing: Web2.П10.Спринт 3, частина 3.vtt
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:209 -   ✓ Extracted 373 segments
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:210 -   ✓ Duration: 4791.9 seconds
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:234 - 
+✓ Total segments processed: 4353
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:235 - ✓ Sessions processed: 19
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:241 - 
+================================================================================
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:242 - PHASE 2: UKRAINIAN DISCOURSE PATTERN ANALYSIS
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:243 - ================================================================================
+2025-11-15 13:45:31 - lightweight_analysis - INFO - run_lightweight_analysis:254 - Analyzing 4353 segments...
+2025-11-15 13:45:45 - lightweight_analysis - INFO - run_lightweight_analysis:304 - ✓ Questions: 344 instances (saved 100 samples)
+2025-11-15 13:45:45 - lightweight_analysis - INFO - run_lightweight_analysis:304 - ✓ Confusion: 162 instances (saved 100 samples)
+2025-11-15 13:45:45 - lightweight_analysis - INFO - run_lightweight_analysis:304 - ✓ Understanding: 693 instances (saved 100 samples)
+2025-11-15 13:45:45 - lightweight_analysis - INFO - run_lightweight_analysis:304 - ✓ Code_switching: 139 instances (saved 100 samples)
+2025-11-15 13:45:45 - lightweight_analysis - INFO - run_lightweight_analysis:326 - 
+================================================================================
+2025-11-15 13:45:45 - lightweight_analysis - INFO - run_lightweight_analysis:327 - PHASE 3: VISUALIZATION GENERATION
+2025-11-15 13:45:45 - lightweight_analysis - INFO - run_lightweight_analysis:328 - ================================================================================
+2025-11-15 13:45:46 - lightweight_analysis - INFO - run_lightweight_analysis:347 - ✓ Generated session distribution plot
+2025-11-15 13:45:46 - lightweight_analysis - INFO - run_lightweight_analysis:360 - ✓ Generated segments timeline plot
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:401 - ✓ Generated pattern analysis plots
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:403 - ✓ All visualizations generated successfully
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:410 - 
+================================================================================
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:411 - PHASE 4: REPORT GENERATION
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:412 - ================================================================================
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:669 - ✓ Generated comprehensive report: /home/user/processtranscripts/analysis_results/run_20251115_134531/reports/comprehensive_analysis_report.md
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:771 - ✓ Generated HTML report: /home/user/processtranscripts/analysis_results/run_20251115_134531/reports/comprehensive_analysis_report.html
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:778 - 
+================================================================================
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:779 - PHASE 5: LATEX OUTPUT GENERATION
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:780 - ================================================================================
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:802 - ✓ Generated LaTeX session statistics table
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:821 - ✓ Generated LaTeX pattern frequencies table
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:1096 - 
+================================================================================
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:1097 - ANALYSIS COMPLETE
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:1098 - ================================================================================
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:1099 - ✓ Results: /home/user/processtranscripts/analysis_results/run_20251115_134531
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:1100 - ✓ Index: /home/user/processtranscripts/analysis_results/run_20251115_134531/index.html
+2025-11-15 13:45:47 - lightweight_analysis - INFO - run_lightweight_analysis:1101 - ================================================================================

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results - 20251115_134531</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f8f9fa;
+        }
+        .stat-box {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .stat-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .stat-number {
+            font-size: 42px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        .stat-label {
+            font-size: 14px;
+            color: #6c757d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .content {
+            padding: 40px;
+        }
+        h2 {
+            color: #2c3e50;
+            margin: 30px 0 20px 0;
+            font-size: 24px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .file-list {
+            list-style: none;
+        }
+        .file-list li {
+            margin: 12px 0;
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+        .file-list li:hover {
+            background: #e9ecef;
+            transform: translateX(5px);
+        }
+        .file-list a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+        }
+        .file-list a:before {
+            content: "📄";
+            margin-right: 12px;
+            font-size: 20px;
+        }
+        .file-list a[href$=".png"]:before { content: "📊"; }
+        .file-list a[href$=".csv"]:before { content: "📋"; }
+        .file-list a[href$=".json"]:before { content: "📦"; }
+        .file-list a[href$=".log"]:before { content: "📝"; }
+        .file-list a[href$=".tex"]:before { content: "📐"; }
+        .file-list a[href$=".html"]:before { content: "🌐"; }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: #28a745;
+            color: white;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 Agile Education Analysis Results</h1>
+            <p>Ukrainian Educational Discourse Analysis</p>
+            <p style="margin-top: 10px; opacity: 0.8;">Run ID: 20251115_134531</p>
+        </header>
+
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-number">19</div>
+                <div class="stat-label">Transcripts</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">109</div>
+                <div class="stat-label">Tests Passed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">4</div>
+                <div class="stat-label">Pattern Types</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Success Rate</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>📊 Reports <span class="badge">2 files</span></h2>
+            <ul class="file-list">
+                <li><a href="reports/comprehensive_analysis_report.html">Comprehensive Analysis Report (HTML)</a></li>
+                <li><a href="reports/comprehensive_analysis_report.md">Comprehensive Analysis Report (Markdown)</a></li>
+            </ul>
+
+            <h2>📈 Visualizations <span class="badge">3 files</span></h2>
+            <ul class="file-list">
+                <li><a href="visualizations/session_distribution.png">Session Distribution Chart</a></li>
+                <li><a href="visualizations/segments_over_time.png">Segments Timeline</a></li>
+                <li><a href="visualizations/pattern_analysis.png">Pattern Analysis Dashboard</a></li>
+            </ul>
+
+            <h2>📁 Data Exports <span class="badge">CSV + JSON</span></h2>
+            <ul class="file-list">
+                <li><a href="data/session_metadata.csv">Session Metadata (CSV)</a></li>
+                <li><a href="data/patterns_questions.json">Question Patterns (JSON)</a></li>
+                <li><a href="data/patterns_confusion.json">Confusion Patterns (JSON)</a></li>
+                <li><a href="data/patterns_understanding.json">Understanding Patterns (JSON)</a></li>
+                <li><a href="data/patterns_code_switching.json">Code-Switching Patterns (JSON)</a></li>
+                <li><a href="statistics/discourse_patterns_summary.json">Pattern Summary Statistics</a></li>
+                <li><a href="samples/sample_segments.json">Sample Transcript Segments</a></li>
+            </ul>
+
+            <h2>📄 LaTeX Tables <span class="badge">Publication Ready</span></h2>
+            <ul class="file-list">
+                <li><a href="latex/session_statistics.tex">Session Statistics Table</a></li>
+                <li><a href="latex/pattern_frequencies.tex">Pattern Frequencies Table</a></li>
+            </ul>
+
+            <h2>📜 Logs & Metadata <span class="badge">Reproducibility</span></h2>
+            <ul class="file-list">
+                <li><a href="logs/analysis.log">Analysis Execution Log</a></li>
+                <li><a href="logs/research_reproducibility_log.json">Research Reproducibility Log</a></li>
+                <li><a href="analysis_metadata.json">Analysis Metadata</a></li>
+            </ul>
+        </div>
+
+        <footer>
+            <p><strong>Agile Education Analyzer v1.0.0</strong></p>
+            <p style="margin-top: 10px; opacity: 0.8;">
+                Framework for analyzing Ukrainian educational discourse in agile methodology contexts
+            </p>
+            <p style="margin-top: 15px; font-size: 12px;">
+                Analysis completed: 2025-11-15 13:45:47<br>
+                Quality Assurance: 109 unit tests passed
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

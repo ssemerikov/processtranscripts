@@ -1,0 +1,11 @@
+{
+  "total_questions": 344,
+  "total_confusion": 162,
+  "total_understanding": 693,
+  "total_code_switching": 139,
+  "question_types": {
+    "general": 339,
+    "clarification": 4,
+    "technical": 1
+  }
+}
