@@ -366,6 +366,9 @@ class ResearchOutputGenerator:
 
     def _escape_latex(self, text: str) -> str:
         """Escape special LaTeX characters"""
+        # IMPORTANT: Backslash must be escaped FIRST to avoid double-escaping
+        text = text.replace('\\', r'\textbackslash{}')
+
         replacements = {
             '&': r'\&',
             '%': r'\%',
@@ -375,8 +378,7 @@ class ResearchOutputGenerator:
             '{': r'\{',
             '}': r'\}',
             '~': r'\textasciitilde{}',
-            '^': r'\^{}',
-            '\\': r'\textbackslash{}'
+            '^': r'\^{}'
         }
 
         for old, new in replacements.items():

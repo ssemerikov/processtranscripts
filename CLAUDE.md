@@ -80,11 +80,30 @@ This repository represents a **specialized educational research framework** for 
   - Timestamps may have gaps or overlaps
   - Watermarks from transcription services need removal
 
-**19 Transcript Files**:
-- 1 Introduction session
-- 9 Sprint sessions (3 sprints × 3 parts each)
-- 9 Stand-up sessions
-- File naming pattern: `Web2.П[XX].[Description].vtt` or `Web2.Стендап [N].vtt`
+**19 Transcript Files** (in chronological order):
+1. Web2.П01.Вступ до гнучкої розробки.vtt (Introduction to Agile Development)
+2. Web2.Стендап 1.vtt (Standup 1)
+3. Web2.П02.Спринт 1, частина 1.vtt (Sprint 1, Part 1)
+4. Web2.Стендап 2.vtt (Standup 2)
+5. Web2.П03.Спринт 1, частина 2.vtt (Sprint 1, Part 2)
+6. Web2.Стендап 3.vtt (Standup 3)
+7. Web2.П04.Спринт 1, частина 3.vtt (Sprint 1, Part 3)
+8. Web2.Стендап 4.vtt (Standup 4)
+9. Web2.П05.Спринт 2, частина 1.vtt (Sprint 2, Part 1)
+10. Web2.Стендап 5.vtt (Standup 5)
+11. Web2.П06.Спринт 2, частина 2.vtt (Sprint 2, Part 2)
+12. Web2.Стендап 6.vtt (Standup 6)
+13. Web2.П07.Спринт 2, частина 3.vtt (Sprint 2, Part 3)
+14. Web2.Стендап 7.vtt (Standup 7)
+15. Web2.П08.Спринт 3, частина 1.vtt (Sprint 3, Part 1)
+16. Web2.Стендап 8.vtt (Standup 8)
+17. Web2.П09.Спринт 3, частина 2.vtt (Sprint 3, Part 2)
+18. Web2.Стендап 9.vtt (Standup 9)
+19. Web2.П10.Спринт 3, частина 3.vtt (Sprint 3, Part 3)
+
+**Pattern**: Introduction → (Sprint Part 1 → Standup) × 3 → (Sprint Part 2 → Standup) × 3 → (Sprint Part 3 → Standup) × 3
+- Total: 1 Introduction + 9 Sprint sessions + 9 Stand-up sessions = 19 files
+- File naming: `Web2.П[XX].[Description].vtt` or `Web2.Стендап [N].vtt`
 
 ## Technical Architecture
 
