@@ -1,0 +1,29 @@
+{
+  "timestamp": "20251115_134330",
+  "transcript_count": 19,
+  "transcript_order": [
+    "Web2.П01.Вступ до гнучкої розробки.vtt",
+    "Web2.Стендап 1.vtt",
+    "Web2.П02.Спринт 1, частина 1.vtt",
+    "Web2.Стендап 2.vtt",
+    "Web2.П03.Спринт 1, частина 2.vtt",
+    "Web2.Стендап 3.vtt",
+    "Web2.П04.Спринт 1, частина 3.vtt",
+    "Web2.Стендап 4.vtt",
+    "Web2.П05.Спринт 2, частина 1.vtt",
+    "Web2.Стендап 5.vtt",
+    "Web2.П06.Спринт 2, частина 2.vtt",
+    "Web2.Стендап 6.vtt",
+    "Web2.П07.Спринт 2, частина 3.vtt",
+    "Web2.Стендап 7.vtt",
+    "Web2.П08.Спринт 3, частина 1.vtt",
+    "Web2.Стендап 8.vtt",
+    "Web2.П09.Спринт 3, частина 2.vtt",
+    "Web2.Стендап 9.vtt",
+    "Web2.П10.Спринт 3, частина 3.vtt"
+  ],
+  "output_directory": "/home/user/processtranscripts/analysis_results/run_20251115_134330",
+  "framework_version": "1.0.0",
+  "analysis_type": "lightweight",
+  "description": "Lightweight analysis using tested modular components"
+}
