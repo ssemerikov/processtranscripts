@@ -88,20 +88,34 @@ This repository represents a **specialized educational research framework** for 
 
 ## Technical Architecture
 
-### Module Structure
+### Module Structure (Hybrid Architecture - Updated 2025-11-15)
 
+**New Package Structure** (Option 3: Hybrid Approach):
 ```
 draftcodebt1stprompt/
-├── agile_education_analysis_framework.py  (1,343 lines) - CORE FRAMEWORK
-│   ├── VTTProcessor: Parse VTT files, extract segments
-│   ├── SpeakerDiarization: Identify speakers (teacher/student)
-│   ├── EngagementAnalyzer: Calculate participation metrics
-│   ├── AgileAdoptionAnalyzer: Track agile terminology usage
-│   ├── ProblemIdentifier: Detect issues and challenges
-│   ├── SentimentTopicAnalyzer: Sentiment and topic modeling
-│   ├── StatisticalAnalyzer: Hypothesis testing and correlations
-│   ├── ResearchVisualizer: Generate publication-ready charts
-│   └── AgileEducationAnalyzer: Orchestration class
+├── agile_education_analyzer/          # Main package directory (NEW)
+│   ├── __init__.py                    # Package initialization, exports key classes
+│   ├── data_structures.py             # Core data models (TranscriptSegment, etc.)
+│   ├── ukrainian_patterns.py          # Ukrainian discourse pattern detection
+│   ├── statistical_analysis.py        # Statistical tests and effect sizes
+│   ├── visualization.py               # Publication-ready charts
+│   ├── research_outputs.py            # LaTeX tables, quotations, APA formatting
+│   └── utils/
+│       ├── __init__.py
+│       └── logger.py                  # Comprehensive logging system
+│
+├── tests/                             # Test suite (NEW)
+│   ├── __init__.py
+│   ├── conftest.py                    # Pytest fixtures
+│   └── test_ukrainian_patterns.py     # Ukrainian pattern tests
+│
+├── examples/                          # Jupyter notebooks (NEW)
+│   └── quick_start.ipynb              # Quick start guide
+│
+├── setup.py                           # Package installation (NEW)
+│
+├── agile_education_analysis_framework.py  (1,343 lines) - LEGACY MONOLITHIC
+│   (Maintained for backward compatibility during transition)
 │
 ├── qualitative_coding.py  (750 lines) - QUALITATIVE ANALYSIS
 │   ├── EducationalCodingScheme: Code definitions (Bloom's, interaction, etc.)
@@ -116,6 +130,16 @@ draftcodebt1stprompt/
 └── run_analysis_example.py  (505 lines) - EXAMPLES
     └── Demonstration scripts for all features
 ```
+
+**Key Improvements in New Architecture**:
+- ✅ Modular design while preserving research cohesion
+- ✅ Enhanced Ukrainian discourse detection (questions, confusion, confirmations)
+- ✅ Comprehensive logging throughout (ResearchLogger for reproducibility)
+- ✅ Research-ready outputs (LaTeX tables, APA formatting)
+- ✅ Test suite with pytest
+- ✅ Example Jupyter notebooks
+- ✅ Proper Python package structure with setup.py
+- ✅ Backward compatibility maintained
 
 ### Key Dependencies
 
